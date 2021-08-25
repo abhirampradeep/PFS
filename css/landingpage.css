@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen+Mono&display=swap');
+
+body
+{    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.topnav-signup{
+    background-color: #1EAAE7;
+    overflow: hidden;
+    box-shadow:1px 1px white;
+}
+
+
+.topnav-signup a {
+    float: left;
+    color:white;
+    text-align: center;
+    text-shadow: .6px .6px white;
+    padding: 2em 2em;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-info
+  {
+      padding: 0 0.5em;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+
+/* this is where the start page styling starts */
+
+section.start-page
+{   
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "bowl content";
+}
+.startpage-left
+{
+  
+  
+  text-align: center;
+  align-self: center;
+}
+
+.startpage-left,h1{
+    
+    text-align: start;
+    margin-left: 2em;
+    color: black;
+    font-size: 2.5em;
+}
+
+.startpage-left,p{
+
+    text-align: start;
+    margin-left: 4em;
+    color:black;
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+input[type=button]
+{
+   background-color:#2BC155;
+   color: white;
+   border: none;
+   border-radius: 1em;
+   padding: 1em 0;
+   /* margin: 1em; */
+   width: 40%;
+   box-shadow: 2px  2px 2px green;
+   margin-left: 4em;
+   font-weight: bolder;
+   font-size: 1em;
+   margin-top: 1em;
+   cursor: pointer;
+   margin-bottom: 200px;
+   
+}
+
+.startpage-image-right
+{
+
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+
+
+
+/* second-page starts from here */
+
+/* this is used to sepearte second page section into half */
+section.second-page
+    {
+    background-color: #1EAAE7;
+    
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "bowl content";
+}
+
+.secondpage-left
+{
+  text-align: center;
+  align-self: center;
+}
+
+.secondpage-left,h1{
+    
+    text-align: start;
+    margin-left: 2em;
+    color: black;
+    
+    font-size: 2.5em;
+}
+
+.secondpage-left,p{
+
+    text-align: start;
+    margin-left: 4em;
+    color:black;
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+input[type=button]
+{
+   background-color:#2BC155;
+   color: white;
+   border: none;
+   border-radius: 1em;
+   padding: 1em 0;
+   /* margin: 1em; */
+   width: 40%;
+   box-shadow: 2px  2px 2px green;
+   margin-left: 4em;
+   font-weight: bolder;
+   font-size: 1em;
+   margin-top: 1em;
+   cursor: pointer;
+   
+}
+
+.secondpage-image-right
+{   
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+
+/* 
+code for third page starts */
+
+section.third-page
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "bowl content";
+}
+
+.thirdpage-right
+{
+  text-align: center;
+  align-self: center;
+}
+
+.thirdpage-right,h1{
+    
+    text-align: start;
+    margin-left: 2em;
+    color: black;
+    
+    font-size: 2.5em;
+}
+
+.thirdpage-right,p{
+
+    text-align: start;
+    margin-left: 4em;
+    color:black;
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+input[type=button]
+{
+   background-color:#2BC155;
+   color: white;
+   border: none;
+   border-radius: 1em;
+   padding: 1em 0;
+   /* margin: 1em; */
+   width: 40%;
+   box-shadow: 2px  2px 2px green;
+   margin-left: 4em;
+   font-weight: bolder;
+   font-size: 1em;
+   margin-top: 1em;
+   cursor: pointer;
+   
+}
+
+.thirdpage-image-left
+{   
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+
+/* code for fourth page starts */
+
+section.fourth-page
+{   background-color: #1EAAE7;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: "bowl content";
+}
+
+.fourthpage-left
+{
+  text-align: center;
+  align-self: center;
+}
+
+.fourthpage-left,h1{
+    
+    text-align: start;
+    margin-left: 2em;
+    color: black;
+    
+    font-size: 2.5em;
+}
+
+.fourthpage-left,p{
+
+    text-align: start;
+    margin-left: 4em;
+    color:black;
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+            /* code for button  */
+input[type=button]         
+{
+   background-color:#2BC155;
+   color: white;
+   border: none;
+   border-radius: 1em;
+   padding: 1em 0;
+  
+   width: 40%;
+   box-shadow: 2px  2px 2px green;
+   margin-left: 4em;
+   font-weight: bolder;
+   font-size: 1em;
+   margin-top: 1em;
+   cursor: pointer;
+   
+}
+
+.fourthpage-image-right
+{   
+    margin-left: 3em;
+    margin-top: 6em;
+}
+
+/* code for fifth page starts from here*/
+
+section.fifth-page
+{  
+    
+   
+
+}
+
+h2.fifthpage-header
+{
+    margin-top: 100px;
+}
+
+
+div.item-fifth
+{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: table;
+    text-align: center;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+    
+}
+
+div.fifthpage-item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    height: 300px;
+}
+.fifthpage-img{
+    
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+
+}
+.item-des{
+    display: block;
+    overflow: hidden;
+}
+.item-head
+{
+    display: block;
+}
+
+
+
+
+/* code for last page starts from here */
+
+section.last-page,h2{
+    text-align: center;
+    
+}
+
+h2.lastpage-header
+{
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+
+h2.lastpage-text
+{
+    padding: 1em;
+    margin: 2em;
+}
+
+button.lastpage-button
+{
+    background-color:#2BC155;
+    color: white;
+    border-radius: 1em;
+    padding: 1em 0;
+    width: 20%;
+    font-weight: bolder;
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+/* last page footer code */
+
+
+section.section-footer
+{   background-color: #1EAAE7;
+    display: grid;
+    grid-template-columns: 40% 15% 15% 15% 15%;
+    grid-template-areas: "bowl content";
+}
+
+.footer-left
+{
+    text-align: center;
+    padding: 5em 5em 5em 2em;
+}
+
+.footer-right-product
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5em;
+    
+}
+.footer-right-feature
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5em;
+    
+}
+.footer-right-Resources
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5em;
+    
+}
+.footer-right-Company
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5em;
+    
+}
