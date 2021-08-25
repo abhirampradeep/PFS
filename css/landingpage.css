@@ -4,12 +4,12 @@
 body
 {    margin: 0;
     overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     background-color: white;
 }
 
 .topnav-signup{
-    background-color: #1EAAE7;
+    
     overflow: hidden;
     box-shadow:1px 1px white;
 }
@@ -17,12 +17,11 @@ body
 
 .topnav-signup a {
     float: left;
-    color:white;
+    color:black;
     text-align: center;
-    text-shadow: .6px .6px white;
     padding: 2em 2em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .topnav-info
@@ -30,9 +29,23 @@ body
       padding: 0 0.5em;
   }
 
-  .topnav-right {
-    float: right;
+  .topnav-logo
+  {
+      
+      float: left;
+      color:white;
+      text-align: center;
+      padding: 1.5em;
+      text-decoration: none;
+    
   }
+
+  .topnav-right {
+    float: right;  
+}
+
+
+
 
 
 /* this is where the start page styling starts */
