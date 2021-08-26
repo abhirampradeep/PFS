@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen+Mono&display=swap');
 
+
+
 body
 {    margin: 0;
     overflow-x: hidden;
@@ -8,38 +10,36 @@ body
     background-color: white;
 }
 
+
+/* code for complete topnav bar */
 .topnav-signup{
     
     overflow: hidden;
-    box-shadow:1px 1px white;
+    box-shadow:1px 1px white;  
 }
 
-
+ /* code for each  element in topnav  */
 .topnav-signup a {
     float: left;
+    font: 'Monstserrat';
     color:black;
     text-align: center;
     padding: 2em 2em;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
   }
 
-  .topnav-info
-  {
-      padding: 0 0.5em;
-  }
 
+/* code for the logo in the topnav */
   .topnav-logo
   {
-      
       float: left;
       color:white;
-      text-align: center;
-      padding: 1.5em;
+      text-align: center;     
       text-decoration: none;
-    
   }
 
+  /* code for elements in the rightside of topnav to place it in the right part */
   .topnav-right {
     float: right;  
 }
@@ -50,35 +50,57 @@ body
 
 /* this is where the start page styling starts */
 
+
+
+/* code for to divide the start page into 2 sections */
 section.start-page
 {   
     display: grid;
     grid-template-columns: repeat(2,50%);
     grid-template-areas: "bowl content";
 }
+
+
+
 .startpage-left
 {
-  
-  
   text-align: center;
-  align-self: center;
 }
 
+/* code for h1 elements in left section of start page */
 .startpage-left,h1{
-    
+    font: 'Monstserrat';
     text-align: start;
-    margin-left: 2em;
+    margin-left: 1.5em;
+    font-weight: 600;
     color: black;
     font-size: 2.5em;
 }
+ 
+/* code for para in left section of start page */
 
-.startpage-left,p{
 
+/* code  for left section complete of start page */
+div.startpage-left{
     text-align: start;
     margin-left: 4em;
     color:black;
-    font-size: 1.2em;
+   
+    font-size: 20px;
     margin-top: 3em;
+}
+/* .startpage-left-writing{
+    text-align: start;
+    margin-left: 1.5em;
+    color: black;
+    font-size: 2.5em;
+} */
+
+p.firstpage-p
+{ 
+    margin-bottom: 3em;
+    opacity: .7;
+    font-size: 19px;
 }
 input[type=button]
 {
@@ -87,35 +109,35 @@ input[type=button]
    border: none;
    border-radius: 1em;
    padding: 1em 0;
-   /* margin: 1em; */
    width: 40%;
    box-shadow: 2px  2px 2px green;
    margin-left: 4em;
    font-weight: bolder;
    font-size: 1em;
-   margin-top: 1em;
    cursor: pointer;
    margin-bottom: 200px;
-   
 }
+
 
 .startpage-image-right
 {
-
     margin-left: 3em;
     margin-top: 6em;
 }
+
+/* starting page code ends here */
 
 
 
 
 /* second-page starts from here */
 
+
+
 /* this is used to sepearte second page section into half */
 section.second-page
     {
-    background-color: #1EAAE7;
-    
+    background: linear-gradient(266.85deg, rgba(0, 0, 0, 0.2) 6.9%, rgba(0, 0, 0, 0) 91.95%), #1EAAE7;
     display: grid;
     grid-template-columns: repeat(2,50%);
     grid-template-areas: "bowl content";
@@ -130,7 +152,7 @@ section.second-page
 .secondpage-left,h1{
     
     text-align: start;
-    margin-left: 2em;
+  
     color: black;
     
     font-size: 2.5em;
@@ -143,24 +165,15 @@ section.second-page
     color:black;
     font-size: 1.2em;
     margin-top: 3em;
+    margin-bottom: 8em;
 }
-input[type=button]
+
+p.secondpage-p
 {
-   background-color:#2BC155;
-   color: white;
-   border: none;
-   border-radius: 1em;
-   padding: 1em 0;
-   /* margin: 1em; */
-   width: 40%;
-   box-shadow: 2px  2px 2px green;
-   margin-left: 4em;
-   font-weight: bolder;
-   font-size: 1em;
-   margin-top: 1em;
-   cursor: pointer;
-   
+    opacity: .7;
+    font-size: 19px;
 }
+
 
 .secondpage-image-right
 {   
@@ -188,7 +201,7 @@ section.third-page
 .thirdpage-right,h1{
     
     text-align: start;
-    margin-left: 2em;
+    /* margin-left: 6em; */
     color: black;
     
     font-size: 2.5em;
@@ -202,6 +215,11 @@ section.third-page
     font-size: 1.2em;
     margin-top: 3em;
 }
+p.thirdpage-p{
+    margin-bottom: 3em;
+    opacity: .7;
+    font-size: 19px;
+}
 input[type=button]
 {
    background-color:#2BC155;
@@ -210,7 +228,7 @@ input[type=button]
    border-radius: 1em;
    padding: 1em 0;
    /* margin: 1em; */
-   width: 40%;
+   width: 30%;
    box-shadow: 2px  2px 2px green;
    margin-left: 4em;
    font-weight: bolder;
@@ -230,7 +248,7 @@ input[type=button]
 /* code for fourth page starts */
 
 section.fourth-page
-{   background-color: #1EAAE7;
+{   background: linear-gradient(266.85deg, rgba(0, 0, 0, 0.2) 6.9%, rgba(0, 0, 0, 0) 91.95%), #1EAAE7;;
     display: grid;
     grid-template-columns: repeat(2,50%);
     grid-template-areas: "bowl content";
@@ -242,41 +260,37 @@ section.fourth-page
   align-self: center;
 }
 
+
 .fourthpage-left,h1{
     
     text-align: start;
-    margin-left: 2em;
     color: black;
-    
     font-size: 2.5em;
 }
 
+/* forth page paragrapgh code */
 .fourthpage-left,p{
 
     text-align: start;
-    margin-left: 4em;
+    /* margin-left: 4em; */
     color:black;
     font-size: 1.2em;
     margin-top: 3em;
+    margin-bottom: 8em;
 }
-            /* code for button  */
-input[type=button]         
+
+
+
+p.forthpage-p
 {
-   background-color:#2BC155;
-   color: white;
-   border: none;
-   border-radius: 1em;
-   padding: 1em 0;
-  
-   width: 40%;
-   box-shadow: 2px  2px 2px green;
-   margin-left: 4em;
-   font-weight: bolder;
-   font-size: 1em;
-   margin-top: 1em;
-   cursor: pointer;
-   
+    opacity: .7;
+    font-size: 19px;
 }
+
+
+
+/* code for button  */
+
 
 .fourthpage-image-right
 {   
@@ -286,16 +300,13 @@ input[type=button]
 
 /* code for fifth page starts from here*/
 
-section.fifth-page
-{  
-    
-   
 
-}
-
+/* 
+code for get top margin for the word mypfs */
 h2.fifthpage-header
 {
     margin-top: 100px;
+    
 }
 
 
@@ -304,7 +315,7 @@ div.item-fifth
     vertical-align: top;
     display: inline-block;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     display: table;
     text-align: center;
     overflow-x: hidden;
@@ -382,7 +393,7 @@ button.lastpage-button
 
 
 section.section-footer
-{   background-color: #1EAAE7;
+{   background: linear-gradient(266.85deg, rgba(0, 0, 0, 0.2) 6.9%, rgba(0, 0, 0, 0) 91.95%), #1EAAE7;;
     display: grid;
     grid-template-columns: 40% 15% 15% 15% 15%;
     grid-template-areas: "bowl content";
@@ -420,5 +431,4 @@ section.section-footer
     text-align: center;
     vertical-align: middle;
     padding: 5em;
-    
 }
